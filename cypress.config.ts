@@ -1,9 +1,13 @@
-export default {
-  allowCypressEnv: false,
+import { defineConfig } from "cypress";
+
+export default defineConfig({
+  projectId: "1jrnvp",
 
   e2e: {
     setupNodeEvents(on, config) {
+
       // implement node event listeners here
+
     },
   },
-};
+});
